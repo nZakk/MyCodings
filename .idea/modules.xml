@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GitHub.iml" filepath="$PROJECT_DIR$/GitHub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course00/java_course00.iml" filepath="$PROJECT_DIR$/Java/java_course00/java_course00.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course01/java_course01.iml" filepath="$PROJECT_DIR$/Java/java_course01/java_course01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course02_scanning_data/java_course02_scanning_data.iml" filepath="$PROJECT_DIR$/Java/java_course02_scanning_data/java_course02_scanning_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course03_scanning_data_pt2/java_course03_scanning_data_pt2.iml" filepath="$PROJECT_DIR$/Java/java_course03_scanning_data_pt2/java_course03_scanning_data_pt2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course04_Math_Java/java_course04_Math_Java.iml" filepath="$PROJECT_DIR$/Java/java_course04_Math_Java/java_course04_Math_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course04_Math_problems/java_course04_Math_problems.iml" filepath="$PROJECT_DIR$/Java/java_course04_Math_problems/java_course04_Math_problems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course05/java_course05.iml" filepath="$PROJECT_DIR$/Java/java_course05/java_course05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course06/java_course06.iml" filepath="$PROJECT_DIR$/Java/java_course06/java_course06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course07/java_course07.iml" filepath="$PROJECT_DIR$/Java/java_course07/java_course07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course08_stock_problem/java_course08_stock_problem.iml" filepath="$PROJECT_DIR$/Java/java_course08_stock_problem/java_course08_stock_problem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course09_class_problems/java_course09_class_problems.iml" filepath="$PROJECT_DIR$/Java/java_course09_class_problems/java_course09_class_problems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course09_class_problems2/java_course09_class_problems2.iml" filepath="$PROJECT_DIR$/Java/java_course09_class_problems2/java_course09_class_problems2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course09_class_problems3/java_course09_class_problems3.iml" filepath="$PROJECT_DIR$/Java/java_course09_class_problems3/java_course09_class_problems3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course10_static_class/java_course10_static_class.iml" filepath="$PROJECT_DIR$/Java/java_course10_static_class/java_course10_static_class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course11_static_problem/java_course11_static_problem.iml" filepath="$PROJECT_DIR$/Java/java_course11_static_problem/java_course11_static_problem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course12_constructor/java_course12_constructor.iml" filepath="$PROJECT_DIR$/Java/java_course12_constructor/java_course12_constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course13_overload/java_course13_overload.iml" filepath="$PROJECT_DIR$/Java/java_course13_overload/java_course13_overload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course14_encapsulation/java_course14_encapsulation.iml" filepath="$PROJECT_DIR$/Java/java_course14_encapsulation/java_course14_encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/java_course15_access_control/java_course15_access_control.iml" filepath="$PROJECT_DIR$/Java/java_course15_access_control/java_course15_access_control.iml" />
+    </modules>
+  </component>
+</project>
