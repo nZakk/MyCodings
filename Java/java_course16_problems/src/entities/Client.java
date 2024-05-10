@@ -9,6 +9,11 @@ public class Client {
         this.accNumber = accNumber;
         this.name = name;
     }
+    public Client (int accNumber, String name, double initialDeposit){
+        this.accNumber = accNumber;
+        this.name = name;
+        deposit(initialDeposit);
+    }
 
     public int getAccNumber(){
         return accNumber;
