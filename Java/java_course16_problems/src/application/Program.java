@@ -31,8 +31,8 @@ public class Program {
         System.out.println();
         
         System.out.println("Account data:");
-        client1.ToString();
-        
+        System.out.println(client1);
+
         System.out.println();
 
         System.out.print("Enter a deposit value: ");
@@ -42,7 +42,7 @@ public class Program {
         System.out.println();
 
         System.out.println("Updated account data:");
-        client1.ToString();
+        System.out.println(client1);
 
         System.out.println();
 
@@ -53,7 +53,7 @@ public class Program {
         System.out.println();
 
         System.out.println("Updated account data:");
-        client1.ToString();
+        System.out.println(client1);
 
 
         sc.close();
