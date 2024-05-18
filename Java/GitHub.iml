@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" packagePrefix="Java" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="java_course09_class_problems3" />
+    <orderEntry type="module" module-name="java_course09_class_problems2" />
+    <orderEntry type="module" module-name="java_course11_static_problem" />
+    <orderEntry type="module" module-name="java_course10_static_class" />
+    <orderEntry type="module" module-name="java_course18_vector_problems2" />
+    <orderEntry type="module" module-name="java_course14_encapsulation" />
+    <orderEntry type="module" module-name="java_course08_stock_problem" />
+    <orderEntry type="module" module-name="java_course09_class_problems" />
+    <orderEntry type="module" module-name="java_course07" />
+    <orderEntry type="module" module-name="java_course15_access_control" />
+    <orderEntry type="module" module-name="java_course16_problems" />
+    <orderEntry type="module" module-name="java_course12_constructor" />
+    <orderEntry type="module" module-name="java_course13_overload" />
+  </component>
+</module>
