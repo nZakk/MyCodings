@@ -2,12 +2,14 @@ package entities;
 
 import entities.enums.OrderStatus;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
-    private LocalDate moment;
+    DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+    private LocalDateTime moment;
     private OrderStatus status;
     private Client client;
 
@@ -15,17 +17,17 @@ public class Order {
 
     public Order(){}
 
-    public Order(LocalDate moment, OrderStatus status, Client client) {
+    public Order(LocalDateTime moment, OrderStatus status, Client client) {
         this.moment = moment;
         this.status = status;
         this.client = client;
     }
 
-    public LocalDate getMoment() {
+    public LocalDateTime getMoment() {
         return moment;
     }
 
-    public void setMoment(LocalDate moment) {
+    public void setMoment(LocalDateTime moment) {
         this.moment = moment;
     }
 
@@ -61,4 +63,21 @@ public class Order {
         return total;
     }
 
+    public String toString() {
+
+        StringBuilder orderDetailBuilder = new StringBuilder();
+        orderDetailBuilder.append("\033[1mORDER SUMMARY: \033[0m" + "\n");
+        orderDetailBuilder.append("Order moment: " + moment.format(fmt) + "\n");
+        orderDetailBuilder.append("Order status: " + status + "\n");
+        orderDetailBuilder.append("Client: " + client + "\n");
+        orderDetailBuilder.append("Order items: " + "\n");
+
+        for(OrderItem item: orderItemList){
+            orderDetailBuilder.append(item + "\n");
+        }
+
+        orderDetailBuilder.append("Total price: $" + total() + "\n");
+
+        return orderDetailBuilder.toString();
+    }
 }
