@@ -2,6 +2,7 @@ package Application;
 
 import model.entities.CarRental;
 import model.entities.Vehicle;
+import model.services.BrazilTaxService;
 import model.services.RentalService;
 import model.services.TaxService;
 
@@ -29,7 +30,7 @@ public class Program {
         System.out.print("Daily price:" );
         double dailyPrice = sc.nextDouble();
 
-        RentalService rentalService = new RentalService(hourlyPrice, dailyPrice, new TaxService());
+        RentalService rentalService = new RentalService(hourlyPrice, dailyPrice, new BrazilTaxService());
         rentalService.ProcessInvoice(carRental);
 
         System.out.println("INVOICE: ");

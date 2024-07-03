@@ -23,11 +23,11 @@ public class RentalService {
 
         if(rentalDurationHours < 12){
             double basicPayment = hourlyPrice * rentalDurationHours;
-            rental.setInvoice(new Invoice(basicPayment, taxService.getTax(basicPayment)));
+            rental.setInvoice(new Invoice(basicPayment, taxService.tax(basicPayment)));
         } else {
             double rentalDurationDays= Math.ceil(rentalDurationHours / 24);
             double basicPayment = dailyPrice * rentalDurationDays;
-            rental.setInvoice(new Invoice(basicPayment, taxService.getTax(basicPayment)));
+            rental.setInvoice(new Invoice(basicPayment, taxService.tax(basicPayment)));
         }
     }
 }
